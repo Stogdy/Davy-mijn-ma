@@ -1,0 +1,129 @@
+/* Algemene stijlen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #d3d3d3;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #555;
+}
+
+/* Content styling */
+.content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Card styling */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.card p,
+.card ul {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+.card ul {
+    padding-left: 20px;
+}
+
+.card ul li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: #d3d3d3;
+    height: 200px;
+    margin: 150px;
+}
+.button-2 {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+    left: 331px;
+  }
+  
+  .button-2:hover,
+  .button-2:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  
+  .button-2:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button-2:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+  }
+    .werkman
+    {
+        width: 300px;
+    }
+
+    
